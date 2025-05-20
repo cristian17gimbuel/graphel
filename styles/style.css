@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #24282b;
+    color: #ffffff;
+    padding: 20px;
+  }
+  hr{
+    border-bottom: 5px solid #1293d4;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .otroColor {
+    color: #1293d4;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  nav a.activ,
+  nav a:hover {
+  color: #1293d4;
+  }
+
+  .principal {
+    background: url("../assets/images/cabecera.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 90px;
+  }
+  
+  .intro{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .gmail {
+    background: #24282b;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .gmail-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gmail h4  {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .gmail input {
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .gmail button {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .servicios {
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .servicios-container {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .servicio img {
+    padding: 2px;
+    width: 100px;
+  }
+  
+  footer {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }/* Diseño Nosotros */
+  .mainn {
+    gap: 50px;
+    padding: 10px 90px;
+    margin: 20px 5px;
+    display: flex;
+  }
+  .mainn img{
+    width: 100%;
+  }
+  .nosotross{
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .texx{
+    padding: 5px;
+    background-color: #35424a;
+    color: #fff;
+    margin: 20px 0px;
+  }
+  .hacemoss{
+    padding: 10px;
+    color: #ffffff;
+    align-self: flex-start;
+    background-color: #35424a;
+  }
+  /* Diseño Servicios */
+  .principall{
+    gap: 50px;
+    padding: 10px 120px;
+    margin: 20px 20px;
+    display: flex;
+  }
+  .serviciosss{
+    width: 200%;
+  }
+  .tixx{
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+    padding: 9px 30px 20px 30px;
+    transition: 0.3s ease ;
+    border: 2px solid #cccccc;
+  }
+  .principall{
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .quehacemos{
+    font-size: 20px;
+    padding: 50px;
+    width: 60%;
+    color: #ffffff;
+    align-self: flex-start;
+    background-color: #35424a;
+  }
+  /* Diseño contacto */
+  .contenido {
+    display: flex;
+    padding: 20px 0;
+    margin: 0 300px;
+  }
+  .contenedor{
+    width: 300%;
+  }
+
+  .campo-formulario input, 
+  .campo-formulario textarea {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .boton-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 18px;
+  }
+
+  .informacion {
+    width: 90%;
+    padding: 5%;
+  }
+  .que-hacemos{
+    margin-top: 1%;
+    font-size: 20px;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #35424a;
+  }
+ 
+  .mapa img {
+    margin-top: 10px;
+    width: 100%;
+  }
