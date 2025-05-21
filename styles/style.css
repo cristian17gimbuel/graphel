@@ -40,10 +40,7 @@
     text-decoration: none;
   }
   
-  nav a.activ,
-  nav a:hover {
-  color: #1293d4;
-  }
+ 
 
   .principal {
     background: url("../assets/images/cabecera.jpg") no-repeat center center/cover;
@@ -190,14 +187,6 @@
     width: 90%;
     padding: 5%;
   }
-  .que-hacemos{
-    margin-top: 1%;
-    font-size: 20px;
-    padding: 15px;
-    color: #ffffff;
-    background-color: #35424a;
-  }
- 
   .mapa img {
     margin-top: 10px;
     width: 100%;
